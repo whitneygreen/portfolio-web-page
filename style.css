@@ -1,1 +1,75 @@
 
+body{
+  /*creating a gratient background that starts grey in the middle and fades to white on the edges*/
+  background-image: radial-gradient(rgb(177, 175, 175), white);
+ 
+}
+/*using .wrapper to control the width of the content in the page*/
+ .wrapper{
+   width: 500px;
+   margin: auto;
+ }   
+/*creating columns to hold the image and intro*/
+.int{
+  columns: 200px 2; 
+}
+/* styling of my image*/
+ .me{
+float: right;
+margin-top: 20px;
+   width: 200px;
+   height: 230px;
+  border-radius: 10%;
+  border-style: double;
+  border-color: black;
+border-width: 8px;
+ }
+
+h1{
+font-family: 'Open Sans Condensed', sans-serif;
+ text-align: center;
+ font-size: 35px;
+
+}
+/*display so my links show left to right, margin to control the spacing*/
+nav li{
+  display: inline-block;
+  text-align: center;
+  margin: 0px 40px 0px 40px;
+}
+
+h2{
+margin-top: 80px;
+text-align: left;
+ font-family: 'Open Sans Condensed', sans-serif;
+ 
+}
+
+
+/*styling my hr so separate content in a creative way*/
+hr{ 
+color: rgb(134, 132, 132);
+border-style: dashed;
+border-radius: 50%;
+width: 300px;
+float: center;
+padding: 2px;
+}
+
+/*styled links in nav*/
+a:link    { color:rgb(255, 255, 255);  }
+a:visited { color: cadetblue;   }
+a:hover   { color: gray; }
+a:active  { color: #464243;  }
+
+article {font-family: 'Open Sans Condensed', sans-serif;
+font-size: 18px;
+}
+
+   
+footer{
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+   
+}
